@@ -17,3 +17,6 @@ def draw_petal():
     for _ in range(2):
         t.circle(50, 60)  # Adjust petal size
         t.left(120)
+
+# call draw_petal on the next line to see what it does
+# delete the call and these comments when you know what it does.
