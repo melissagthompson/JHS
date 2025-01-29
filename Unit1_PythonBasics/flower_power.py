@@ -5,8 +5,9 @@
 import turtle
 #    creates background variable for colorchange
 #    and the digital pen
-t = turtle.Turtle()
 screen = turtle.Screen()
+t = turtle.Turtle()
+t.speed(5)    # the larger the number, the faster the speed
 
 #    changes color of background
 screen.bgcolor('lightblue')
